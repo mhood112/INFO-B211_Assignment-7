@@ -54,4 +54,44 @@ Show the proportion of loans in "DEFAULT" vs. "NO DEFAULT" status.
 ##### Implementation:
 A pie chart with slices for each loan status.
 Explodes the "DEFAULT" slice for emphasis.
-##### Limitations: Assumes only two loan statuses are present.
+##### Limitations:
+Assumes only two loan statuses are present
+
+## Iris Dataset Visualizations
+#### Purpose
+The Iris dataset visualizations aim to illustrate the differences in physical traits (sepal length, sepal width, petal length, petal width) between the three species of iris flowers (Setosa, Versicolor, Virginica).
+
+### Visualizations
+
+#### Scatter Plot: Petal Length vs. Petal Width
+
+##### Purpose: 
+Highlight the clustering of species based on petal dimensions.
+##### Implementation:
+A scatter plot with distinct colors (brown, green, tan) for each species.
+Includes a legend and grid for readability.
+##### Limitations: 
+Overlapping points may obscure some data.
+
+#### Box Plot: Sepal Length by Species
+
+##### Purpose: 
+Compare the distribution of sepal lengths across species.
+##### Implementation:
+A box plot with custom colors for each species.
+Median values are displayed above each box.
+##### Limitations:
+Outliers are not explicitly labeled.
+
+### Overlapping Histograms: Sepal Length by Species
+
+##### Purpose: 
+Show the distribution of sepal lengths for each species.
+##### Implementation:
+Overlapping histograms with distinct colors for each species.
+Includes a legend and grid for readability.
+##### Limitations: 
+Overlapping areas may make it difficult to distinguish distributions.
+
+## Conclusion
+This project demonstrates how Matplotlib can be used to create insightful visualizations for different datasets. By analyzing the loan and Iris datasets, we can uncover trends and differences that would otherwise be difficult to observe. The consistent use of color themes enhances the visual appeal and readability of the charts.
